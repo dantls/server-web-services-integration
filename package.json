@@ -1,0 +1,19 @@
+{
+  "name": "node-oracle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --experimental-modules --inspect src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cron": "^2.0.0",
+    "dotenv": "^16.0.0",
+    "node-cron": "^3.0.0",
+    "nodemon": "^2.0.15",
+    "oracledb": "^5.3.0",
+    "pg": "^8.7.3"
+  }
+}
