@@ -29,8 +29,6 @@ async function initial ()  {
   orders.map(async(item)=>{
     if(!item.PENDENCY){
       try {
-        console.log(api);
-        console.log(item.NROORD)
         await api.post('/finalized',{
           "order": item.NROORD,
           "user": `${process.env.USER_AUTO_ID}`
